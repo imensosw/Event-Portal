@@ -1,0 +1,72 @@
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 90% !important;
+  }
+}
+/* Mobile Phone Resolution  CSS rules for browser widths equal to or less than 480px */
+@media only screen and (max-width: 480px) {
+.hide-phone {
+	display: none;
+}
+.hide-pc {
+	display: block;
+}
+.slogan {
+	top: 25%;
+}
+.slogan h2 {
+	font-size: 22px;
+	line-height: 30px;
+}
+.slogan a {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 26px;
+}
+#planning h2 {
+	font-size: 20px;
+    line-height: 27px;
+}
+.burger-sm {
+	padding: 25px 0;
+}
+.gutter-sm {
+	padding: 0 25px;
+}
+.box-grey {
+	padding: 0;
+	min-height: 215px;
+}
+#coreFeatures .gutter-sm {
+	padding: 0 0;
+}
+.followus h2 {
+	font-size: 20px;
+}
+.followus ul li {
+	height: 30px;
+	width: 30px;
+	margin: 0 5px;
+}
+.followus ul li a {
+	font-size: 13px;
+}
+.mt5 {
+	margin-top: 17px;
+}
+#header {
+	height: 80px;
+	position: relative;
+}
+.top-links {
+	padding-top: 13px;
+}
+.panel-image {
+	height: 278px;
+}
+}
+/* Tablet Resolution CSS rules for browser widths from 481px to 768 px*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+}

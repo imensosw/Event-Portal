@@ -1,0 +1,64 @@
+
+/* Laptop Resolution CSS rules for browser widths from 1201px and up*/
+@media only screen and (min-width: 1200px) {
+	.container {
+		width: 80% !important;
+	}
+
+}
+/* Mobile Phone Resolution  CSS rules for browser widths equal to or less than 480px */
+@media only screen and (max-width: 480px) {
+.banner_section {
+    background-position: -45em 0 !important;
+}
+.first_heading {
+    margin-top: -2em;
+}
+.counter {
+    left: 2em !important;
+    color: #fff;
+		top: 25em !important;
+}
+.Registr_heading::before {
+    top: 0.5em;
+    left: 0.5em;
+    width: 95px;
+}
+.Registr_heading::after {
+    top: 0.5em;
+    right: 0.5em;
+    width: 95px;
+}
+.location_group h1 {
+    font-size: 2.2em ;
+}
+.socail_icon {
+  display: none;
+}
+}
+/* Tablet Resolution CSS rules for browser widths from 481px to 768 px*/
+@media only screen and (max-width: 768px) {
+	.Registr_heading::before{
+		top: 7px;
+		width: 40px;
+	}
+	.Registr_heading::after{
+		top: 7px;
+		width: 40px;
+	}
+}
+/* Mobile Phone Resolution  CSS rules for browser widths equal to or less than 320px */
+@media only screen and (max-width: 320px) {
+  .countdownHolder{
+    width: 290px !important;
+  }
+  .padd_65{
+    padding: 20px 25px !important;
+  }
+  .Registr_heading::before{
+    width: 70px !important;
+  }
+  .Registr_heading::after{
+    width: 70px !important;
+  }
+}
